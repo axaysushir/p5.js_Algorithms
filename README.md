@@ -4,7 +4,7 @@ I build some alogrithems visualization using p5.js which is given below.
 
 ### Earthquake data mapping and magnitude visualization
 ### fractal_tree_visualizer
-### clock using p5.js
+### Clock using p5.js
 ### Maze Generator Algorithem using Breadth-first-search & Backtracking
 ### Cardioid algorithem visualization
-### Fireworks 
+### Fireworks visualization 
