@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+  color: white;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+}
+
+
+.navbar {
+  width: 300px;
+  margin-bottom: 0;
+  padding: 0;
+  font-weight: normal;
+}
+.nav-item {
+  list-style: none;
+  display: flex;
+  font-size: 1rem;
+  justify-content: space-between; 
+  align-items: flex-end;
+}
+
+.logo {
+  position: relative;
+  width: 700px;
+  height: 500px;
+  animation: 4s fadein;
+  margin-left: -30px;
+  .uno,
+  .dos,
+  .tres {
+    position: absolute;
+    width: 120px;
+    height: 100%;
+    background: #b00612;
+  }
+  .uno {
+    left: 0;
+  }
+  .dos {
+    background: #e50815;
+    left: 0;
+    z-index: 1;
+    transform-origin: top left;
+    transform: skewX(25.4deg);
+    box-shadow: 0 0 20px black;
+  }
+  .tres {
+    right: 0;
+  }
+  &::before {
+    display: block;
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    z-index: 10;
+    width: 120%;
+    height: 30px;
+    //   background: black;
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+  }
+}
+
+.name {
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  animation: 4s name linear;
+  text-align: center;
+  align-items: center;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.info {
+    margin: 80px 40px;
+    padding: 5rem auto;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+.content h2{
+  position: relative;
+  margin-top: 5rem;
+}
+.content p {
+  font-size: 1.2rem;
+  padding-right: 20px;
+  overflow: hidden;
+}
+
+
+
+.img {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  display: flex;
+}
+
+footer {
+  padding: 30px 40px;
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
+}
+footer ul, li {
+  list-style: none;
+  padding-left: 5px ;
+}
+.social-link {
+  margin-left: 200px;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes name {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  80% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
