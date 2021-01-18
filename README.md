@@ -1,10 +1,11 @@
-Make visual animations of Computer Science alogrithems using p5.js.
+Make visual animations of Computer Science alogrithms using p5.js.
 
-I build some alogrithems visualization using p5.js which is given below.
+I build some alogrithms visualization using p5.js which is given below.
 
 ### Earthquake data mapping and magnitude visualization
 ### fractal_tree_visualizer
 ### Clock using p5.js
-### Maze Generator Algorithem using Breadth-first-search & Backtracking
+### Maze Generator Algorithm using Breadth-first-search & Backtracking
 ### Cardioid algorithem visualization
 ### Fireworks visualization 
+### Path Finding Algorithm using A* search algorithm
