@@ -22,13 +22,14 @@ function draw() {
   translate(width / 2, height / 2);
   // stroke(255, 150);
   stroke(22, 99, 255)
+  // stroke(random(0, 255), random(0, 255), random(0, 255));
   strokeWeight(2);
   noFill();
   ellipse(0, 0, r * 2);
 
   strokeWeight(2);
   fill(255, 120)
-//   stroke(180, 246, 155)
+  stroke(random(0, 255), random(0, 255), random(0, 255));
   for (let i = 0; i < total; i++) {
     const a = getVector(i, total);
     const b = getVector(i * factor, total);
