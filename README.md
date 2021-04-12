@@ -7,7 +7,9 @@ I build some alogrithms visualization using p5.js which is given below.
 #### Clock using p5.js
 #### Maze Generator Algorithm using Breadth-first-search & Backtracking
 #### Cardioid algorithem visualization
-#### Fireworks visualization 
+#### Fireworks visualization: 
+<img src='./firework/fireworks.gif' />
+
 #### Path Finding Algorithm using A* search algorithm
 #### Flocking simulation Craig Reynolds "boids" algorithm.
 
