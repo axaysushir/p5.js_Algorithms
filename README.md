@@ -11,3 +11,6 @@ I build some alogrithms visualization using p5.js which is given below.
 #### Path Finding Algorithm using A* search algorithm
 #### Flocking simulation Craig Reynolds "boids" algorithm.
 
+<br/>
+<img src='./flocking_simulation/flocking.gif' />
+
